@@ -1,11 +1,16 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-    {% include "header/header.html" %}
+  <head>
+    {% include "includes/header.html" %}
+    <title>{% block title %}{% endblock %} | کلینیک زیبایی</title>
+  </head>
   <body>
-    <div>
-        {% block content %}
-        
-        {% endblock%}
-    </div>
+    {% include 'includes/navbar.html' %}
+
+    {% block content %}
+    {% endblock %}
+
+
   </body>
 </html>

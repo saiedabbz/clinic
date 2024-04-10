@@ -1,0 +1,10 @@
+body {
+    font-family: IRANSans, sans-serif;
+    padding: 0;
+    background-color:#FAFBFC;
+}
+
+.card_css a {
+    display: block;
+    text-align: center;
+}
